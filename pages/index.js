@@ -72,7 +72,7 @@ export default function Home({ products }) {
               " flex justify-center items-center flex-col"
             }
           >
-            <span className="flex justify-center relative px-0 px-3 pr-6 border border border-transparent">
+            <span className="flex justify-center relative  px-3 pr-6 border border-transparent">
               {selectedProducts.length > 0 && (
                 <div className="absolute left-8">
                   <p className="flex h-1 w-1 items-center justify-center rounded-full bg-red-500 p-3 text-xs text-white">
